@@ -1,2 +1,2 @@
 #!/bin/bash
-cp /tmp/School /tmp/SCHOOL 0
+cp /tmp/School 
