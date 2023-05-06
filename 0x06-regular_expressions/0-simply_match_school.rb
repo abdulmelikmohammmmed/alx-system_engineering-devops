@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-regex = /School/
+regex = /\bSchool\b/
 
 if ARGV.length != 1
   puts "Usage: #{$PROGRAM_NAME} <string>"
