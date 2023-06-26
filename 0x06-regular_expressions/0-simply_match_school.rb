@@ -1,16 +1,3 @@
 #!/usr/bin/env ruby
-
-regex = /\bSchool\b/
-
-if ARGV.length != 1
-  puts "Usage: #{$PROGRAM_NAME} <string>"
-  exit 1
-end
-
-string = ARGV[0]
-
-if regex.match?(string)
-  puts "School"
-else
-  puts string
-end
+#regular expression must match School
+puts ARGV[0].scan(/School/).join
